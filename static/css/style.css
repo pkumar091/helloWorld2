@@ -1,0 +1,39 @@
+/* Style all paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Style all level two headers */
+h2 {
+    color: #E21833;
+    border-bottom: 2px solid #E21833;
+}
+
+/* Style all tables with a colored border */
+table {
+    border: 2px solid #E21833;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #E21833;
+    padding: 6px;
+}
+
+/* Style only the third paragraph using its id */
+p#closing {
+    font-style: italic;
+    color: #555555;
+}
+
+/* Class rule block applied to the h1 */
+.highlight {
+    color: #E21833;
+}
+
+/* Logo size, only for img tags with the logo class */
+img.logo {
+    width: 267px;
+    height: 72px;
+}
